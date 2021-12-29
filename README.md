@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This is the client server of the app 'Smart Import System'.Find the instructions below to run in on localhost.
+This is the client server of the app 'Smart Import System'. Find the instructions below to run it on localhost.
 
 ### Prerequisites
 
