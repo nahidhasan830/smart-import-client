@@ -1,13 +1,35 @@
---------Procedure to run this server on localhost---------------
+<!-- GETTING STARTED -->
 
-Pre-requisites:
-i. Windows operating system required . Didn't tested on Linux or MacOS.
-ii.Node should be installed on your system.
+## Getting Started
 
-1. Open terminal and write command 'npm install'.It'll install all required dependencies.
-2. After finished installing,, simply run command 'npm run dev'.
-   this will run server on localhost:3000.
-3. Open any browser and go to 'http://localhost:3000'. [this may take some time to load only for the first time].
-4. Two spreadsheet in the 'sample-data' folder provided to test the feature.
+This is the client server of the app 'Smart Import System'.Find the instructions below to run in on localhost.
 
-N.B: client server may seem a bit slow for the first time use.As it's not an optimized build for production.
+### Prerequisites
+
+- Windows operating system required . Didn't tested on Linux or MacOS.
+- node should be installed on your system.
+
+### Installation
+
+_Here is the procedure to install all dependencies and run the application on localhost._
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/nahidhasan830/smart-import-client.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the development server by running the following command
+   ```sh
+   npm run dev
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+Two spreadsheet provided in the 'sample-data' folder of the root directory to test the feature.
