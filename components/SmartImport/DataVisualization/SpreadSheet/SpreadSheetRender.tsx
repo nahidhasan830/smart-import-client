@@ -50,8 +50,8 @@ const SpreadSheetRender: React.FC<HotTableProps> = () => {
     firstSheetData.forEach(data => {
       const { rowNumber, columnNumber, value } = data;
       (hotTableComponent!.current as any)!.hotInstance.setDataAtCell(
-        rowNumber,
-        columnNumber,
+        rowNumber - 1,
+        columnNumber - 1,
         value
       );
     });

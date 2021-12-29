@@ -6,12 +6,22 @@ const queryClient = new QueryClient({
     queries: {
       refetchOnWindowFocus: false,
       retry: false,
-      onError: (error: any) =>
+      onError: (error: any) => {
         toast.error(
           error.response?.data?.message ||
             error.message ||
             'something went wrong'
-        )
+        );
+      }
+    },
+    mutations: {
+      onError: (error: any) => {
+        toast.error(
+          error.response?.data?.message ||
+            error.message ||
+            'something went wrong'
+        );
+      }
     }
   }
 });
