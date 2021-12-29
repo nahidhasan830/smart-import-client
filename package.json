@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@handsontable/react": "^11.0.1",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/lab": "^5.0.0-alpha.61",
+    "@mui/material": "^5.2.5",
+    "axios": "^0.24.0",
+    "handsontable": "^11.0.1",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.5",
+    "react-hot-toast": "^2.1.1",
+    "react-query": "^3.34.6",
+    "xlsx": "^0.17.4"
   },
   "devDependencies": {
     "@types/react": "17.0.38",
