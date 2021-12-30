@@ -4,6 +4,12 @@
 
 This is the client server of the app 'Smart Import System'. Find the instructions below to run it on localhost.
 
+### Deployment
+
+If you don't want to run this app on your localhost and want to test it then here is the deployment version of the application.
+
+<p align="center"><a href="https://smart-import-900wb1wdm-nahidhasan830.vercel.app/">Smart Import</a></p>
+
 ### Prerequisites
 
 - Windows operating system required . Didn't tested on Linux or MacOS.
