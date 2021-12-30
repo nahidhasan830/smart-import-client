@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ISite } from '../interfaces/ISite';
 
 const siteAxios = axios.create({
-  baseURL: 'http://localhost:5000/api/v1/site'
+  baseURL: 'https://smart-import-server.herokuapp.com/api/v1/site'
 });
 
 export const getAllSite = async () => {

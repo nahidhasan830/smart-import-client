@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import SiteList from '../Components/Site/SiteList';
+import SiteList from '../components/Site/SiteList';
 
 const HomePage: NextPage = () => {
   return (

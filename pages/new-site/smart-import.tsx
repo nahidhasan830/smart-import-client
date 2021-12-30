@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import type { NextPage } from 'next';
-import SmartImport from '../../Components/SmartImport/SmartImport';
+import SmartImport from '../../components/SmartImport/SmartImport';
 
 const SmartImportPage: NextPage = () => {
   return (

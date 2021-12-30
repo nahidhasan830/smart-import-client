@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
-import NewSite from '../../Components/NewSite/NewSite';
+import NewSite from '../../components/NewSite/NewSite';
 
 const NewSitePage: NextPage = () => {
   return (
