@@ -8,7 +8,7 @@ This is the client server of the app 'Smart Import System'. Find the instruction
 
 If you don't want to run this app on your localhost and want to test it then here is the deployment version of the application.
 
-<p align="center"><a href="https://smart-import-900wb1wdm-nahidhasan830.vercel.app/">Smart Import</a></p>
+<p>Deployed To Vercel: <a href="https://smart-import-900wb1wdm-nahidhasan830.vercel.app/">Smart Import</a></p>
 
 ### Prerequisites
 
