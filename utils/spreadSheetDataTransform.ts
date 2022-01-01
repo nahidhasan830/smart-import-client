@@ -34,7 +34,6 @@ const alphabeticPosition = [
 ];
 
 export const cellToRowColumn = (cellName: string) => {
-  console.log(cellName);
   const rowNumber = +cellName.match(/\d+/g)![0];
 
   const [firstLetter, secondLetter, thirdLetter] = cellName.match(/([A-Z])/g)!;
@@ -61,8 +60,6 @@ export const cellToRowColumn = (cellName: string) => {
 
 const spreadSheetDataTransform = (Sheets: any) => {
   let finalData: any = {};
-
-  console.log('This is Sheets: ', Sheets);
 
   for (const [sheetName, sheetValue] of Object.entries(
     Sheets as ISheetnameValuePair
