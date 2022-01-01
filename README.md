@@ -6,9 +6,9 @@ This is the client server of the app 'Smart Import System'. Find the instruction
 
 ### Deployment
 
-If you don't want to run this app on your localhost and want to test it then here is the deployment version of the application.
+If you don't want to run this app on your localhost and want to test it then here is the deployed version of the application.
 
-<p>Deployed To Vercel: <a href="https://smart-import.vercel.app/">Smart Import</a></p>
+<p>Deployed To Vercel : <a href="https://smart-import.vercel.app/"> Smart Import</a></p>
 
 ### Prerequisites
 
