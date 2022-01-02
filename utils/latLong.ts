@@ -1,9 +1,9 @@
 export const coordinatesToLatLong = (coordinates: string) => {
-  let [latitude, longitude] = coordinates.split(',');
-  if (latitude && longitude) {
-    latitude = latitude.trim();
-    longitude = longitude.trim();
-  }
+  let [latitude, longitude] = `${coordinates}`.split(',');
+
+  latitude = latitude && latitude.trim();
+  longitude = longitude && longitude.trim();
+
   return { latitude, longitude };
 };
 
