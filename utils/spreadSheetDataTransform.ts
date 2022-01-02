@@ -68,12 +68,7 @@ const spreadSheetDataTransform = (Sheets: any) => {
     for (const [cellName, value] of Object.entries(
       sheetValue as ISheetnameValuePair
     )) {
-      if (
-        cellName === '!ref' ||
-        cellName === '!margins' ||
-        cellName === '!merges'
-      )
-        continue;
+      if (cellName.startsWith('!')) continue;
       const { rowNumber, columnNumber } = cellToRowColumn(cellName);
       finalData[sheetName].push({
         cell: cellName,
